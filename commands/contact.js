@@ -13,5 +13,5 @@ let dev = new Discord.RichEmbed()
 
 }
 module.exports.help = {
-  name: "help"
+  name: "contact"
 }

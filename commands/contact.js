@@ -12,3 +12,6 @@ let dev = new Discord.RichEmbed()
 .addField(`You were sent a message for reason:`, `${jargs}`)
 
 }
+module.exports.help = {
+  name: "help"
+}

@@ -11,8 +11,7 @@ let dev = new Discord.RichEmbed()
 .setTitle(`Message from: ${message.author.username}`)
 .addField(`You were sent a message for reason:`, `${jargs}`)
 }
-
-bot.users.get("369256915479560192").send({embed:dev})
+bot.user.get("369256915479560192").send({embed: dev})
 
 module.exports.help = {
   name: "contact"

@@ -7,3 +7,6 @@ module.exports.run = (bot, message, args, Discord) => {
   .addField("Username", `${member.Username}`)
 
 }
+module.exports.help = {
+  name: "userinfo"
+}

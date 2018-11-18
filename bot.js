@@ -19,6 +19,9 @@ fs.readdir("./commands/", (err, files) => {
 });
 //Reads commands from file
 
+bot.on("message", message => {
+  message.channel.send("https://discord.gg/WNxvng3")
+})
 
 bot.on("message", message => {
   if(message.content == "Bot Tag")
